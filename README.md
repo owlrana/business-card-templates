@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Business Card Templates React-Application
+
+![Image of Final Output after Installing application: Business Card as presented by Patrick Bateman in American Psycho](https://i.imgur.com/JkunOTw.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
