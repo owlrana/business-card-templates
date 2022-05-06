@@ -208,12 +208,28 @@ main {
     color: #3A372A;
 }
 
-.firstName {
+.name {
+    /* Frame 3 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+
     position: absolute;
-    width: 208px;
-    height: 21px;
+    width: 452px;
+    height: 26px;
     left: 24px;
-    top: 116px;
+    top: 112px;
+}
+
+.firstName {
+    /* PATRICK */
+    position: static;
+    width: auto;
+    height: 21px;
 
     font-family: 'EB Garamond';
     font-style: normal;
@@ -222,15 +238,49 @@ main {
     line-height: 21px;
     /* identical to box height */
 
+    display: flex;
+    align-items: center;
     text-align: right;
-    letter-spacing: 0em;
+    letter-spacing: -0.04em;
 
     /* MAIN */
-
     color: #3A372A;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.lastName {
+    /* BATEMAN */
+    position: static;
+    width: auto;
+    height: 24px;
+
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    /* MAIN */
+    color: #3A372A;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
 }
 
 .designation {
+    /* VICE PRESIDENT */
     position: absolute;
     width: 452px;
     height: 18px;
@@ -246,26 +296,6 @@ main {
     letter-spacing: -0.02em;
 
     /* MAIN */
-
-    color: #3A372A;
-}
-
-.lastName {
-    position: absolute;
-    width: 240px;
-    height: 25px;
-    left: 238px;
-    top: 112px;
-
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: 0em;
-
-    /* MAIN */
-
     color: #3A372A;
 }
 

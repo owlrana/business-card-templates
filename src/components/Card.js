@@ -116,8 +116,10 @@ export default function Card() {
                     <span className="card--text phone">{card.phNo}</span>
                     <span className="card--text companyName">{card.companyName}</span>
                     <span className="card--text companyTagline">{card.companyTagline}</span>
-                    <span className="card--text firstName">{card.firstName}</span>
-                    <span className="card--text lastName">{card.lastName}</span>
+                    <div className="name">
+                        <span className="card--text firstName">{card.firstName}</span>
+                        <span className="card--text lastName">{card.lastName}</span>    
+                    </div>
                     <span className="card--text designation">{card.designation}</span> 
                     <span className="card--text address">{card.fullAddress}</span>
                 </div>
